@@ -371,3 +371,67 @@ p {
 .about-statistic-name {
   font-size: 20px;
 }
+
+.whyus {
+  margin-top: 390px;
+  width: 100%;
+}
+
+.whyus-header {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 55px;
+  width: 100%;
+  max-width: 725px;
+}
+
+.whyus-content {
+  margin-top: 43px;
+  display: grid;
+  grid-template-rows: repeat(2, 408px);
+  grid-template-columns: repeat(3, 440px);
+  grid-row-gap: 35px;
+  grid-column-gap: 43px;
+}
+
+.whyus-box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: #F8F8F8;
+  border-radius: 35px;
+}
+
+.big-box {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.whyus-box-info {
+  height: 100%;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whyus-box-title {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.whyus-box-subtitle {
+  font-size: 20px;
+  font-family: OpenSans;
+  line-height: 160%;
+}
+
+.whyus-box-imge {
+  margin-right: -30px;
+}
+
+.whyus-box-icon {
+  margin-bottom: 28.5px;
+}
